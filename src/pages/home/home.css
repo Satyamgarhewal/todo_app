@@ -1,0 +1,94 @@
+.date {
+  font-size: 20px;
+  color: white;
+  display: inline;
+}
+.activeincompleteRoute {
+  font-size: 20px;
+  display: inline;
+  float: right;
+  color: white;
+}
+
+.incompleteRoute {
+  font-size: 20px;
+  display: inline;
+  float: right;
+  color: grey;
+}
+.completeRoute {
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline;
+  float: right;
+  color: grey;
+}
+.activecompleteRoute {
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline;
+  float: right;
+  color: white;
+}
+.form {
+  display: flex;
+}
+.textfield {
+  margin-top: 20px;
+  background-color: white;
+  border-color: transparent;
+  display: inline-block;
+  min-width: 400px;
+}
+.activeTask {
+  font-size: 15px;
+  color: lightblue;
+}
+
+.addtaskbutton {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: #61dbfb;
+  padding: 8px 10px 8px 10px;
+  border-style: hidden;
+  display: inline-block;
+  min-width: 100px;
+}
+
+.horizontalline {
+  margin-top: 50px;
+  color: grey;
+  border-width: 0.5px;
+}
+
+.tableRow{
+  display: flex;
+}
+.tableData {
+  color: white;
+  font-size: 15px;
+}
+
+.checkboxDesign {
+  color: transparent;
+  float: left;
+}
+
+.deleteTaskRow{
+  display: inline;
+  float: right;
+}
+.deleteTask {
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-color: rgb(245, 99, 99);
+  padding: 8px 10px 8px 10px;
+  border-style: hidden;
+  display: inline;
+  min-width: 100px;
+  border-radius: 5px;
+}
